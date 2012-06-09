@@ -1,0 +1,24 @@
+Source: beautifulsoup4
+Section: python
+Priority: extra
+Maintainer: Alexander Tsvetkov <sickuenser@eastwood-lab.com>
+Uploaders: Alexander Tsvetkov <sickuenser@eastwood-lab.com>
+Build-Depends:
+  cdbs,
+  debhelper (>= 7),
+  python-support,
+  python,
+  python-all-dev (>= 2.5),
+  python-setuptools
+Standards-Version: 3.8.4
+
+Package: python-beautifulsoup4
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python
+Description: error-tolerant HTML parser for Python
+ Beautiful Soup is a Python library for pulling data out of HTML and XML files.
+ It works with your favorite parser to provide idiomatic ways of navigating,
+ searching, and modifying the parse tree. It commonly saves programmers hours
+ or days of work.
+ .
+ This package contains BeautifulSoup 4, for Python 2.x.

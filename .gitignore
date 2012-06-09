@@ -2,3 +2,18 @@
 *.pot
 *.pyc
 local_settings.py
+
+# Emacs
+\#*\#
+*~
+
+# Debian temporary
+*.debhelper
+*.debhelper.log
+*.substvars
+debian/*/*
+debian/files
+build/*
+
+# Localisation
+*.mo
